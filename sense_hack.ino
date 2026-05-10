@@ -1,11 +1,3 @@
-/* Tremor-stabilizer for spoon — ESP32 (uses driver LEDC API)
-   Requirements:
-   - Board: ESP32 Dev Module
-   - MPU6050 library: MPU6050 (Electronic Cats / Jeff Rowberg)
-   - MPU6050 wired to 3.3V, SDA=21, SCL=22
-   - Servos powered from external 5V supply (common GND)
-*/
-
 #include <Arduino.h>
 #include <Wire.h>
 #include <MPU6050.h>
